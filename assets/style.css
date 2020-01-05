@@ -1,6 +1,12 @@
 html{
+    
     background-image: url(prism.png);
 }
-.container{
+body{
     background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    
+}   
+p, label {
+    color: #9bc4e2;
 }

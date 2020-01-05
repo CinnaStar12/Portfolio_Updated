@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTC-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Allan Binayao</title>
+    <title>Contact - Allan Binayao</title>
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom" id="navbar">
         <span class="navbar-brand mb-0 h1">
-            <h4>Allan Binayao</h4>
+            <p class=h2>Allan Binayao</p>
         </span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                     <a class="nav-link" href="index.html">About Me</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact<span class = "sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -35,14 +35,31 @@
             </ul>
         </div>
     </nav>
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h2>Contact</h2>
+                <p class="h2">Contact</p>
             </div>
         </div>
+        <form>
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email Address</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="5"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </form>
 
     </div>
+    <br>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
