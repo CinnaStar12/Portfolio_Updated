@@ -10,3 +10,6 @@ body{
 p, label {
     color: #9bc4e2;
 }
+#email{
+    border: 2px solid white;
+}
